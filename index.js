@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import Title from './Components/Title';
 import Fact from './Components/Fact';
 import './style.css';
-import './animate.css';
 
 class App extends Component {
   constructor() {
