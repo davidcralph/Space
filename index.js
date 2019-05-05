@@ -11,7 +11,7 @@ class App extends Component {
 
   render() {
     return (
-      <div style={{textAlign: 'center'}} class='background'>
+      <div style={{textAlign: 'center'}} className='background'>
         <Title></Title>
         <Fact></Fact>
       </div>
