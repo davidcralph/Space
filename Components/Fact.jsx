@@ -46,7 +46,7 @@ class Fact extends React.Component {
     return (
       <div>
         <h2>Click the button below for a cool fact about space! (from natgeokids.com and space.com)</h2>
-        <button onClick={this.handleClick.bind(this)} class='button'>Click Me!</button>
+        <button onClick={this.handleClick.bind(this)} className='button'>Click Me!</button>
         <div>{this.state.fact}</div>
       </div>
     );
