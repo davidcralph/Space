@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Title from './Components/Title';
+import Fact from './Components/Fact';
 import './style.css';
+import './animate.css';
 
 class App extends Component {
   constructor() {
@@ -10,8 +12,9 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{textAlign: 'center'}}>
         <Title></Title>
+        <Fact></Fact>
       </div>
     );
   }
