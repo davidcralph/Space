@@ -12,7 +12,7 @@ body {
 
 .background {
   opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+  filter: alpha(opacity=60);
   background-color: black;
   position: absolute;
   top:0;
